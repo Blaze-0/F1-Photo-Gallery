@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	font-family: Gotham Thin;
+	background-color: #15151E;
+}
+.f1-header{
+	position: relative;
+	left: 0px;
+	right: 0px;
+	height: 220px;
+	width: 100%;
+	background-color: #15151E;
+}
+.div-logo{
+	height: 20%;
+	text-align: center;
+	margin: 10px;
+	float: center;
+}
+.logo-text{
+	display: block;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+}
+.gallery-container{
+	display: flex;
+	flex-direction: column;
+	background-color: #15151E;
+}
+.thumbnail-container{
+	display: flex;
+	overflow: auto;
+}
+.thumbnail{
+	width: 120px;
+	height: 75px;
+	cursor: pointer;
+	margin: 5px;
+	border: 1px solid red;
+}
+.thumbnail:hover{
+	border: 1px solid red;
+}
+.image-container{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.footer{
+	background-color: red;
+	color: white;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
